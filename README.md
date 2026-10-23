@@ -40,7 +40,6 @@ Me interesa construir software sólido por dentro (lógica de negocio, datos, in
 | **♟️ Ajedrez 3D** | Ajedrez en 3D inspirado en el ajedrez mágico de Harry Potter: piezas de piedra que se rompen en fragmentos con físicas al ser capturadas. Modo local para 2 jugadores y modo contra IA (minimax propio). | Godot |
 | **🏆 Rift Manager** | Juego de gestión de esports ambientado en League of Legends: ligas, academias, varias regiones y Worlds, con partidas simuladas en un mapa 2D animado. | Godot · GDScript |
 | **🚌 EMT Tarragona** | Rediseño de la web de autobuses urbanos de Tarragona con paradas, líneas y horarios reales a partir de los datos abiertos GTFS. | Web · GTFS |
-| **💰 App de finanzas** | App móvil de finanzas personales: registro de ingresos y gastos, categorías, movimientos recurrentes, balance mensual, Face ID y exportación a CSV. | Multiplataforma (iOS) |
 | **🤖 Jarvis** | Asistente de voz personal inspirado en JARVIS, ejecutado 100 % en local. | Python · IA local |
 
 ---
