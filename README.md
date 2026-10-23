@@ -58,6 +58,6 @@ Castellano y catalán (nativo) · Inglés (B1/B2) · Francés (básico)
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MatiasRodrigo0502&show_icons=true&theme=radial&hide_border=true" alt="Estadísticas de GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatiasRodrigo0502&layout=compact&theme=radial&hide_border=true" alt="Lenguajes más usados" />
+  <img src="./profile/stats.svg" alt="Estadísticas de GitHub" />
+  <img src="./profile/top-langs.svg" alt="Lenguajes más usados" />
 </p>

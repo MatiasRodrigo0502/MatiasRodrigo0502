@@ -1,0 +1,42 @@
+name: Actualizar tarjetas del README
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # Cada día a las 03:00 UTC
+  workflow_dispatch: # Permite lanzarlo a mano desde la pestaña Actions
+  push:
+    paths:
+      - ".github/workflows/readme-cards.yml" # Se ejecuta al cambiar este archivo
+
+jobs:
+  tarjetas:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necesario para hacer commit de los SVG generados
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generar tarjeta de estadísticas
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=radial&hide_border=true
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generar tarjeta de lenguajes
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=radial&hide_border=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Guardar tarjetas en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Actualizar tarjetas del README" || exit 0
+          git push
