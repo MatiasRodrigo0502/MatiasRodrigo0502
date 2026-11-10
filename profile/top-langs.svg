@@ -138,7 +138,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="149.19"
+          width="139.19"
           height="8"
           fill="#355570"
         />
@@ -146,9 +146,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="149.19"
+          x="139.19"
           y="0"
-          width="97.76"
+          width="107.66"
           height="8"
           fill="#3572A5"
         />
@@ -156,9 +156,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="246.95"
+          x="246.85"
           y="0"
-          width="12.51"
+          width="12.64"
           height="8"
           fill="#89e051"
         />
@@ -166,9 +166,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.45999999999998"
+          x="249.48999999999998"
           y="0"
-          width="10.38"
+          width="10.35"
           height="8"
           fill="#478CBF"
         />
@@ -178,7 +178,7 @@
           data-testid="lang-progress"
           x="249.83999999999997"
           y="0"
-          width="10.16"
+          width="10.15"
           height="8"
           fill="#C1F12E"
         />
@@ -189,35 +189,35 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#355570" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        GDScript 59.67%
+        GDScript 55.68%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 39.10%
+        Python 43.06%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#89e051" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Shell 1.01%
+        Shell 1.06%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#478CBF" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        GDShader 0.15%
+        GDShader 0.14%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#C1F12E" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Batchfile 0.07%
+        Batchfile 0.06%
       </text>
     </g>
   </g></g>
